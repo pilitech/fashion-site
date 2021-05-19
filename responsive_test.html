@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>レスポンシブデザイン</title>
+
+  <!--CSS追加-->
+  <link rel="stylesheet" href="responsive_test_css/reset.css">
+  <link rel="stylesheet" href="responsive_test_css/responsive_test.css">
+  <!--font追加-->
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Shippori+Mincho&display=swap" rel="stylesheet">
+
+</head>
+<body>
+  <div class="top">
+    <div class="top_img">
+      <img src="./responsive_test_img/firstview.png" alt="top" width="1200px" height="auto">
+    </div>
+
+    <header class="header" style="z-index:10000">
+      <div class="hamburger-menu">
+        <label for="menu-btn-check" class="menu-btn"><span></span></label>
+      </div>
+      <h1 class="header-ttl">
+        <a href="index.html">
+          Tecool
+        </a>
+      </h1>
+      <nav class="header-nav">
+        <ul class="header-nav-list">
+          <li class="header-nav-item"><a href="index.html">Item</a></li>
+          <li class="header-nav-item"><a href="service.html">Topics</a></li>
+          <li class="header-nav-item"><a href="news.html">Style</a></li>
+          <li class="header-nav-item"><a href="blog.html">About</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <div class="firstview" style="z-index:10000">
+      <div class="fv_text">
+        <div class="fv_ttl">呼び覚ませ</div>
+        <div class="fv_sub-ttl">2021 Spring ＆ Summer</div>
+      </div>
+    </div>
+  </div>
+
+  <article class="topics">
+    <section class="tpc_content">
+      <img class="tpc_img" src="./responsive_test_img/topics-img1.png" alt="topics">
+      <div class="tpc_text">
+        <h3 class="tpc_ttl">Life Style</h3>
+        <p class="tpc_detail">サンプルテキストがここには入ります。サンプルテキストがここには入ります。</p>
+      </div>
+    </section>
+    <section class="tpc_content">
+      <img class="tpc_img" src="./responsive_test_img/topics-img2.png" alt="topics">
+      <div class="tpc_text">
+        <h3 class="tpc_ttl">Important</h3>
+        <p class="tpc_detail">サンプルテキストがここには入ります。サンプルテキストがここには入ります。</p>
+      </div>
+    </section>
+    <section class="tpc_content">
+      <img class="tpc_img" src="./responsive_test_img/topics-img3.png" alt="topics">
+      <div class="tpc_text">
+        <h3 class="tpc_ttl">Culture</h3>
+        <p class="tpc_detail">サンプルテキストがここには入ります。サンプルテキストがここには入ります。</p>
+      </div>
+    </section>
+  </article>
+
+  <article class="styles">
+    <h2 class="styles_ttl">Styles</h2>
+    <div class="grid">
+      <div class="box1">
+        <img src="./responsive_test_img/styles-img1.png" alt="styles" width="280px" height="auto">
+      </div>
+      <div class="box2">
+        <img src="./responsive_test_img/styles-img2.png" alt="styles" width="280px" height="auto">
+      </div>
+      <div class="box3">
+        <img src="./responsive_test_img/styles-img3.png" alt="styles" width="280px" height="auto">
+      </div>
+      <div class="box4">
+        <img src="./responsive_test_img/styles-img4.png" alt="styles" width="280px" height="auto">
+      </div>
+      <div class="box5">
+        <img src="./responsive_test_img/styles-img5.png" alt="styles" width="280px" height="auto">
+      </div>
+      <div class="box6">
+        <img src="./responsive_test_img/styles-img6.png" alt="styles" width="280px" height="auto">
+      </div>
+    </div>
+  </article>
+
+  <div class="about">
+    <img class="about_img" src="./responsive_test_img/about.png" alt="about">
+    <div class="about_text">
+      <div class="about_sub-ttl">Make your World</div>
+      <div class="about_ttl">個性が出せる<br>世界に</div>
+      <p class="about_detail">
+        ここにはAboutのテキストが入る予定です。ここにはAboutのテキストが入る予定です。ここにはAboutのテキストが入る予定です。ここにはAboutのテキストが入る予定です。<br>
+        <br>
+        ここにはAboutのテキストが入る予定です。ここにはAboutのテキストが入る予定です。
+      </p>
+      <div class="about_btn">Aboutページへ</div>
+    </div>
+  </div>
+  
+  <footer>
+    &copy;2021 estra, inc
+  </footer>
+
+
+</body>
+</html>
